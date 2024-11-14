@@ -491,5 +491,12 @@
                                     rel="noopener">SardinasJL</a></small>
 </footer>
 <script src="script.js" type="text/javascript"></script>
+<script>
+    ["contextmenu", "dragstart"].forEach(eventType => {
+        document.addEventListener(eventType, function (event) {
+            event.preventDefault();
+        });
+    });
+</script>
 </body>
 </html>
