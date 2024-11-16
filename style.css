@@ -378,6 +378,7 @@ progress::-moz-progress-bar {
     width: 100%;
     margin: 0 auto;
     display: block;
+    padding: 3px;
 }
 
 .portfolio-card img {
