@@ -18,7 +18,8 @@
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Portafolio de José Luis Sardinas Aguilar">
-    <meta name="twitter:description" content="Explora el portafolio y servicios de desarrollo web, móvil y diseño CAD de José Sardinas.">
+    <meta name="twitter:description"
+          content="Explora el portafolio y servicios de desarrollo web, móvil y diseño CAD de José Sardinas.">
     <meta name="twitter:image" content="https://sardinasjl.github.io/portafolio-cv/assets/portfolio-6.jpg">
     <meta name="keywords"
           content="desarrollo web, desarrollo móvil, diseño CAD, portafolio, José Luis Sardinas Aguilar">
@@ -31,7 +32,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RHE8KV02Y9"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
         gtag('config', 'G-RHE8KV02Y9');
     </script>
@@ -219,6 +224,18 @@
 <section id="portafolio" class="portfolio section">
     <div class="container">
         <h2 class="section-title">Mis trabajos</h2>
+        <a href="#trabajo-100" class="portfolio-card">
+            <img src="assets/portfolio-100.png" alt="trabajo 100">
+            <aside class="portfolio-card-info">
+                <div>
+                    <h3>McCabe-Thiele</h3>
+                    <p>
+                        Un pequeño programa para calcular el número de platos de una columna de destilación. Se realizó
+                        en JavaScript con Vue.js y Vuetify.
+                    </p>
+                </div>
+            </aside>
+        </a>
         <a href="#trabajo-0" class="portfolio-card">
             <img src="assets/portfolio-0.png" alt="trabajo 0">
             <aside class="portfolio-card-info">
@@ -232,7 +249,7 @@
             </aside>
         </a>
         <a href="#trabajo-1" class="portfolio-card">
-            <img src="assets/portfolio-1.jpg" alt="trabajo 1">
+            <img src="assets/portfolio-1.png" alt="trabajo 1">
             <aside class="portfolio-card-info">
                 <div>
                     <h3>Sitio web "Alerta Urbana"</h3>
@@ -245,7 +262,7 @@
             </aside>
         </a>
         <a href="#trabajo-2" class="portfolio-card">
-            <img src="assets/portfolio-2.jpg" alt="trabajo 2">
+            <img src="assets/portfolio-2.png" alt="trabajo 2">
             <aside class="portfolio-card-info">
                 <div>
                     <h3>Sitio web "Registro QR para estudiantes de nivel inicial"</h3>
@@ -258,7 +275,7 @@
             </aside>
         </a>
         <a href="#trabajo-3" class="portfolio-card">
-            <img src="assets/portfolio-3.jpg" alt="trabajo 3">
+            <img src="assets/portfolio-3.png" alt="trabajo 3">
             <aside class="portfolio-card-info">
                 <div>
                     <h3>Calculadora "ACI 211.11"</h3>
@@ -310,6 +327,35 @@
     </div>
 </section>
 <!---esto es un modal: --->
+<article class="modal" id="trabajo-100">
+    <div class="modal-content">
+        <a href="#cerrar" class="modal-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/>
+            </svg>
+        </a>
+        <article class="portfolio-modal">
+            <img src="assets/portfolio-100.png" alt="Trabajo 100">
+            <div class="portfolio-info">
+                <h3>Método McCabe-Thile</h3>
+                <p>Un pequeño programa para calcular el número de platos de una columna de destilación. Realizado en
+                    Vue.js con Vuetify.</p>
+                <aside class="portfolio-details">
+                    <small><b>CLIENTE:</b></small>
+                    <small>-</small>
+                    <small><b>TIPO:</b></small>
+                    <small>Calculadora</small>
+                    <small><b>ENLACE:</b></small>
+                    <small>
+                        <a href="https://mccabethiele.webcindario.com/" target="_blank"
+                           rel="noopener">https://mccabethiele.webcindario.com/</a>
+                    </small>
+                </aside>
+            </div>
+        </article>
+    </div>
+</article>
+<!---esto es un modal: --->
 <article class="modal" id="trabajo-0">
     <div class="modal-content">
         <a href="#cerrar" class="modal-close">
@@ -351,7 +397,7 @@
             </svg>
         </a>
         <article class="portfolio-modal">
-            <img src="assets/portfolio-1.jpg" alt="Trabajo 1">
+            <img src="assets/portfolio-1.png" alt="Trabajo 1">
             <div class="portfolio-info">
                 <h3>Sitio web "Tupiza Anda Mal"</h3>
                 <p>Sitio web creado con HTML, CSS, PHP y JS. Se empleó PHP/Laravel junto a Blade, Bootstrap 5 y
@@ -389,7 +435,7 @@
             </svg>
         </a>
         <article class="portfolio-modal">
-            <img src="assets/portfolio-2.jpg" alt="Trabajo 2">
+            <img src="assets/portfolio-2.png" alt="Trabajo 2">
             <div class="portfolio-info">
                 <h3>Sitio web "Registro QR para estudiantes de nivel inicial"</h3>
                 <p>Sitio web creado con HTML, CSS, PHP y JS. Se empleó PHP/Laravel junto a Blade, Bootstrap 5 y
@@ -427,7 +473,7 @@
             </svg>
         </a>
         <article class="portfolio-modal">
-            <img src="assets/portfolio-3.jpg" alt="Trabajo 3">
+            <img src="assets/portfolio-3.png" alt="Trabajo 3">
             <div class="portfolio-info">
                 <h3>Calculadora "ACI 211.11"</h3>
                 <p>Aplicación Android híbrida, creada con Cordova, Bootstrap y JS.</p>
@@ -565,10 +611,10 @@
 </footer>
 <script src="script.js" type="text/javascript"></script>
 <script>
-    document.addEventListener('contextmenu', function(event) {
+    document.addEventListener('contextmenu', function (event) {
         event.preventDefault();
     });
-    document.addEventListener('dragstart', function(event) {
+    document.addEventListener('dragstart', function (event) {
         event.preventDefault();
     });
     document.addEventListener('copy', function (event) {
